@@ -1,6 +1,7 @@
 from collections import deque
 from array import array
 from sys import getsizeof
+from appabstract import Bond
 
 que = deque([])
 que.append(2)
@@ -71,3 +72,7 @@ def comp(val):
 
 
 print(comp("5"))
+
+
+b = Bond()
+print(b.get_balance())
